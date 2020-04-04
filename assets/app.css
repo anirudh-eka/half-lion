@@ -14,15 +14,45 @@ body {
   } 
 }
 
+
+
+.page-turns {
+  position: relative;
+}
+
+.page-turn-prev {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  left: 0;
+  opacity: 0.7;
+  border-bottom: 20px solid #5f5f5f;
+  border-right: 20px solid transparent;
+}
+
+.page-turn-next {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  right: 0;
+  opacity: 0.7;
+  border-bottom: 20px solid #5f5f5f;
+  border-left: 20px solid transparent;
+}
+
+.page-turn-prev:hover, .page-turn-next:hover {
+  border-bottom: 20px solid maroon;
+}
+
 .container {
   color: #333;
-  max-width: 40em;
+  max-width: 33em;
   margin: 6em auto;
   padding: 0em 0.5em;
 }
 
 p {
-  font-size: 2em;
+  font-size: 1em;
   text-align: left; 
   line-height: 1.4em;
   color: #333;
@@ -44,6 +74,12 @@ p a:hover {
 h1 {
   display: inline-block;
   font-size: 100px;
+  text-align: center;
+}
+
+object {
+  display: block;
+  margin: auto;
 }
 
 /*****************************************************************************/
