@@ -1,3 +1,3 @@
-# Toomanynames
+# Self Made Machine
 
-Just go to the website...
+About individualism, masculinity, functional programming and compositionality
