@@ -5,16 +5,8 @@ body {
   overflow: initial;
   overflow-x: hidden;
   text-align: left;
-  background-color: #fecfa17a;
+  background-color: #fee9d2;
 }
-
-@media screen and (max-width: 500px) {
-  body {
-    font-size: 17.6px; 
-  } 
-}
-
-
 
 .page-turns {
   position: relative;
